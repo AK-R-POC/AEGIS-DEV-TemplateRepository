@@ -1,6 +1,6 @@
 {
   "exclude_on_delete": {
-    "files": [".Rprofile.org"],
+    "files": [],
     "dirs": ["log", "renv"]
   },
   "exclude_on_copy": {

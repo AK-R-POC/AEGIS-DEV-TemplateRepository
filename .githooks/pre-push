@@ -3,11 +3,11 @@
 # 現在のブランチ名を取得
 branch=$(git rev-parse --abbrev-ref HEAD)
 
-# main, master, qaブランチではpushできません。
-if [ "$branch" = "main" ] || [ "$branch" = "master" ] || [ "$branch" = "qa" ]; then
-  echo "❌ $branch ブランチではpushできません。pull request を作成してください。"
+# main, qaブランチではpushできません。
+if [ "$branch" = "main" ] || [ "$branch" = "qa" ]; then
+  echo "❌ Pushing directly to the $branch branch is not allowed. Please create a pull request."
   exit 1
 fi
 
-echo "✔ チェック完了"
+echo "✔ Check complete"
 exit 0
