@@ -1,7 +1,7 @@
 {
   "exclude_on_delete": {
     "files": [],
-    "dirs": ["log", "renv"]
+    "dirs": ["log"]
   },
   "exclude_on_copy": {
     "files": [],
