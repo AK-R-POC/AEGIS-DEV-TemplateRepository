@@ -34,7 +34,7 @@
 - .Rprofile     for definition of custom logger to enable logging high-level info  
 
   **### command example ###**  
-    cd {*your project home*}  
+    cd <your project home>  
     ./init_r.sh  
 
 6) Enable renv on Environments of "Project Options"
