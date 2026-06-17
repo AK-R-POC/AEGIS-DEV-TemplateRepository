@@ -8,7 +8,7 @@
 
   **### command example ###**  
     cd  
-    ssh-keygen -t ed25519 -C "your email address for GitHub account(e.g. jane.doe@asia.roche.com / jane.doe@chugai-pharm.co.jp)"  
+    ssh-keygen -t ed25519 -C "your email address for GitHub account(e.g. jane.doe@external.roche.com / jane.doe@chugai-pharm.co.jp)"  
 - Acquire public key on your home  
 
   **### command example ###**  
@@ -19,7 +19,7 @@
 - Register GitHub username and email address into your git configuration as follows.  
 
   **### command example ###**  
-    git config --global user.email "jane.doe@asia.roche.com/jane.doe@chugai-pharm.co.jp"  
+    git config --global user.email "jane.doe@external.roche.com/jane.doe@chugai-pharm.co.jp"  
     git config --global user.name "doe_roche/123456_roche"  
     git config --global core.hooksPath .githooks  
     git config --global pull.rebase false  
